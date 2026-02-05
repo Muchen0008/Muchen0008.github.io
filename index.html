@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
@@ -88,32 +88,44 @@
     .whatsapp-float:hover {
       transform: scale(1.08);
     }
+  .wa-icon {
+      width: 22px;
+      height: 22px;
+      display: inline-block;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
 </style>
 </head>
 <body>
   <div class="container">
-    <div class="avatar"><img src="sunda-logo.jpeg" alt="Sunda Travel Logo" /> /></div>
+    <div class="avatar"><img src="sunda-logo.png" alt="Sunda Travel Logo" /></div>
     <h1>Sunda Travel</h1>
-    <p>Official Website · WhatsApp · Contact</p>
+    <p>Official Website · WhatsApp · WeChat · Contact</p>
 
     <!-- 网站链接 -->
     <a class="link" href="https://sundatravel.com.cn/" target="_blank">🌐Visit official website </a>
 
     <!-- WhatsApp 联系方式 -->
-    <a class="link" href="https://wa.me/85253630941" target="_blank">💬 Get free itinerary via WhatsApp</a>
+    <a class="link" href="https://wa.me/85253630941" target="_blank"><span class="wa-icon"></span> Get free itinerary via WhatsApp</a>
 
-   <!-- 谷歌邮箱联系方式 -->
+    <!-- 谷歌邮箱联系方式 -->
     <a class="link" href="mailto:sundatravel88@gmail.com">📧 Contact us via Email (Gmail)</a>
+
     <!-- 微信联系（扫码加微信） -->
-<a class="link" href="wechat.html">🟢 Add us on WeChat</a>
+    <a class="link" href="wechat.html">🟢 Add us on WeChat</a>
+
     <!-- 你可以继续添加更多链接 -->
     <!-- <a class="link" href="https://facebook.com">Facebook</a> -->
 
-    <div class="footer">© 2026 Your Brand</div>
+    <div class="footer">SUNDATRAVE</div>
   </div>
   <!-- WhatsApp Floating Button -->
   <a href="https://wa.me/85253630941" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
-    💬
+    <span class="wa-icon"></span>
   </a>
 </body>
 </html>
